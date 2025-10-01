@@ -27,6 +27,14 @@ Identity-Based Policies: Permissões anexadas a uma identidade, como um usuário
 
 Resource-Based Policies: Permissões anexadas diretamente a um recurso, como um bucket do S3.
 
+- Lab
+
+Fazer: Module 2 Knowledge Check
+
+Fazer: Guided Lab: Exploring AWS Identity and Access Management (IAM)
+
+Fazer: Module 3 Knowledge Check
+
 
 # Aula 20/08
 
@@ -39,6 +47,10 @@ File Share: Para quando várias pessoas ou aplicativos precisam acessar o mesmo 
 Object Store: Armazena fotos, vídeos, logs e outros dados que não precisam de uma estrutura rígida. É ótimo para armazenar grandes volumes de dados.
 
 S3: O serviço de armazenamento de objetos da AWS. É conhecido por ser super confiável e escalável, ideal para backups, sites estáticos e muito mais.
+
+- Lab
+
+Fazer: lab: Creating a Static Website for the Cafe
 
 
 # Aula 27/08
@@ -77,13 +89,17 @@ RDP: Para se conectar a servidores Windows.
 
 # Aula 10/09
 
-- EFS vs. FSx:
+EFS vs. FSx:
 
-  EFS: Sistema de arquivos que pode ser compartilhado por vários servidores EC2.
+EFS: Sistema de arquivos que pode ser compartilhado por vários servidores EC2.
 
-- FSx: Permite usar sistemas de arquivos específicos como os do Windows ou Lustre, facilitando a migração.
+FSx: Permite usar sistemas de arquivos específicos como os do Windows ou Lustre, facilitando a migração.
 
-  EC2 Windows: Você também pode rodar servidores virtuais com o sistema operacional Windows na AWS.
+EC2 Windows: Você também pode rodar servidores virtuais com o sistema operacional Windows na AWS.
+
+- Lab:
+
+Fazer: Guided lab: Introducing Amazon Elastic File System (Amazon EFS)
 
 
 # Aula 17/09
