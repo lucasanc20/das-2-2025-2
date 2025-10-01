@@ -1,14 +1,14 @@
 # das-2-2025-2
 
 
-- Aula 30/07
+# Aula 30/07
 
 Well-Architected Framework: Um guia da AWS para construir sistemas na nuvem de forma sólida. Ele se concentra em cinco pontos-chave: segurança, velocidade, confiabilidade, economia e organização.
 
 Trade-offs: Em arquitetura, é a arte de escolher. Você não pode ter tudo, então precisa decidir o que é mais importante, como trocar um pouco de performance por um custo menor.
 
 
-- Aula 06/08
+# Aula 06/08
 
 Responsabilidade Compartilhada: A segurança na AWS é um trabalho em equipe. A AWS cuida da segurança da nuvem (a infraestrutura física), e você cuida da segurança na nuvem (suas configurações e dados).
 
@@ -19,7 +19,7 @@ Autenticação e Autorização: Autenticação é o ato de provar quem você é.
 IAM User vs. IAM Role: Pense no IAM User como sua identidade pessoal para acessar a AWS. O IAM Role é uma "identidade temporária" que você pode assumir para ter acesso a algo sem precisar de credenciais fixas.
 
 
-- Aula 13/08
+# Aula 13/08
 
 Políticas de Permissão:
 
@@ -28,7 +28,7 @@ Identity-Based Policies: Permissões anexadas a uma identidade, como um usuário
 Resource-Based Policies: Permissões anexadas diretamente a um recurso, como um bucket do S3.
 
 
-- Aula 20/08
+# Aula 20/08
 
 Tipos de Armazenamento:
 
@@ -41,7 +41,7 @@ Object Store: Armazena fotos, vídeos, logs e outros dados que não precisam de 
 S3: O serviço de armazenamento de objetos da AWS. É conhecido por ser super confiável e escalável, ideal para backups, sites estáticos e muito mais.
 
 
-- Aula 27/08
+# Aula 27/08
 
 S3: Mais que arquivos: O S3 não armazena apenas arquivos; ele armazena objetos, que são arquivos com informações extras (metadados).
 
@@ -52,7 +52,7 @@ Escolhendo a Região: A região do bucket é importante. Pense na proximidade do
 Inventário do S3: Uma ferramenta que te dá uma lista detalhada de tudo o que está no seu bucket, ajudando na organização e auditoria.
 
 
-- Aula 03/09
+# Aula 03/09
 
 Serviços Computacionais: Onde você roda suas aplicações na nuvem.
 
@@ -75,18 +75,18 @@ SSH: Para se conectar a servidores Linux.
 RDP: Para se conectar a servidores Windows.
 
 
-- Aula 10/09
+# Aula 10/09
 
-EFS vs. FSx:
+- EFS vs. FSx:
 
-EFS: Sistema de arquivos que pode ser compartilhado por vários servidores EC2.
+  EFS: Sistema de arquivos que pode ser compartilhado por vários servidores EC2.
 
-FSx: Permite usar sistemas de arquivos específicos como os do Windows ou Lustre, facilitando a migração.
+- FSx: Permite usar sistemas de arquivos específicos como os do Windows ou Lustre, facilitando a migração.
 
-EC2 Windows: Você também pode rodar servidores virtuais com o sistema operacional Windows na AWS.
+  EC2 Windows: Você também pode rodar servidores virtuais com o sistema operacional Windows na AWS.
 
 
-- Aula 17/09
+# Aula 17/09
 
 EC2: O serviço que te dá servidores virtuais flexíveis e escaláveis na nuvem.
 
