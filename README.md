@@ -131,3 +131,24 @@ Conectando redes:
 VPN Site-to-Site: Conecta sua rede local à sua rede na AWS.
 
 Peering: Conecta duas redes da AWS entre si.
+
+# Aula 24/09
+
+Conexão em Rede na Nuvem
+Fundamentos de Rede AWS:
+Entendimento da arquitetura de rede na AWS, incluindo subnets públicas e tabelas de rotas. Comunicação pode ser por internet ou por conexões diretas.
+
+VPC (Sua Rede na AWS):
+A VPC é a rede privada e isolada do usuário na AWS. É totalmente configurável, mas é cobrada por tempo de uso e tráfego, sem versão gratuita.
+
+Comunicação entre Serviços:
+Explicação de como os serviços interagem, usando um MQTT broker como exemplo de comunicação leve para sistemas distribuídos (IoT).
+
+Detalhes Técnicos e Práticas:
+Diferenças entre arquiteturas de processadores (X86 vs. ARM) e a comunicação de programas. Abordagem de boas práticas, como nomear recursos e usar ferramentas como Docker para simplificar o empacotamento de aplicações.
+
+- Lab
+
+Guided lab: Creating a Virtual Private Cloud
+Challenge (Cafe) lab: Creating a VPC Networking Environment for the Café
+Module 7 Knowledge Check
